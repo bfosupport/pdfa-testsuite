@@ -1,0 +1,35 @@
+pdfa1-6-5-3-bfo-t01-pass.pdf	Pushbutton has an AP stream (pdfa/1 equiv of pdfa2-6-3-3-bfo-t01)
+
+pdfa2-6-1-2-bfo-t01-fail.pdf	PDF header has spaces after %PDF-1.n and before newline
+pdfa2-6-1-5-bfo-t01-pass.pdf	Info dictionary doesn't match XMP (relaxation in PDF/A-2)
+pdfa2-6-1-7-2-bfo-t01-fail.pdf	Non-standard filter on stream
+pdfa2-6-1-13-bfo-t01-fail.pdf	More than 28 q/Q nests
+pdfa2-6-1-13-bfo-t02-fail.pdf	Art box dimensions < 3
+pdfa2-6-1-13-bfo-t03-fail.pdf	Media box dimensions > 14400
+pdfa2-6-1-13-bfo-t04-fail.pdf	Real number over maximum IEEE754 and PDF/A limit (in content stream)
+pdfa2-6-1-13-bfo-t05-fail.pdf	Real number under minimum PDF/A limit (in structure)
+pdfa2-6-1-13-bfo-t06-pass.pdf	Real number over IEEE754 limit but under PDF/A limit (in content stream)
+pdfa2-6-1-13-bfo-t07-pass.pdf	Real number at minimum PDF/A limit (in content stream)
+pdfa2-6-1-13-bfo-t08-pass.pdf	Real number under maximum IEEE754 and PDF/A limit (in content stream)
+pdfa2-6-1-13-bfo-t09-fail.pdf	Real number under minimim PDF/A limit (in content stream)
+pdfa2-6-1-13-bfo-t10-fail.pdf	Name that is not valid UTF-8 (as a key in a Dictionary)
+pdfa2-6-1-13-bfo-t11-fail.pdf	Name that is not valid UTF-8 (as a value)
+pdfa2-6-2-11-6-bfo-t01-pass.pdf	Non-symbolic TrueType with Differences array but glyph is in ASGL (relaxation in PDF/A-2)
+pdfa2-6-2-11-6-bfo-t02-fail.pdf	Non-symbolic TrueType with Differences array but glyph is not in ASGL
+pdfa2-6-3-2-bfo-t01-pass.pdf	Popup annotation has no F key (relaxation in PDF/A-2)
+pdfa2-6-3-2-bfo-t02-fail.pdf	Annotation has ToggleNoView flag set
+pdfa2-6-3-3-bfo-t01-fail.pdf	Pushbutton has an AP stream (contentious fail)
+pdfa2-6-3-3-bfo-t02-pass.pdf	Pushbutton has an AP dictionary (contentious pass)
+pdfa2-6-4-2-bfo-t01-fail.pdf	Document Catalog has "NeedsRendering" key
+pdfa2-6-8-bfo-t01-pass.pdf	Valid embedded file (in EmbeddedFiles Name Tree)
+pdfa2-6-8-bfo-t02-pass.pdf	Valid embedded file (as FileAttachment annotation)
+pdfa2-6-8-bfo-t03-fail.pdf	Embedded file is not PDF/A
+pdfa2-6-8-bfo-t04-fail.pdf	Embedded File has no "F" key
+pdfa2-6-8-bfo-t05-fail.pdf	Embedded File has no "UF" key
+pdfa2-6-9-bfo-t01-fail.pdf	Optional content configuration dictionary has no name
+pdfa2-6-9-bfo-t02-fail.pdf	Optional content configuration dictionary has the AS key
+pdfa2-6-9-bfo-t03-fail.pdf	Optional content has groups with duplicate names
+pdfa2-6-9-bfo-t04-fail.pdf	Optional content configuration dictionary specifies Order that doesn't list every OCG in the file
+pdfa2-6-10-bfo-t01-fail.pdf	Document Name Tree has AlternatePresentations key
+pdfa2-6-10-bfo-t02-fail.pdf	Page has PresSteps key
+pdfa2-6-11-bfo-t01-fail.pdf	Document Catalog has Requirements key
